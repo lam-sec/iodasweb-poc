@@ -25,8 +25,9 @@ WEBSITE.COM/astre/iodasweb/app.jsp?action=<img src=x onerror=alert(1)>
 ```
 ![Alt Text](1.png)
 ![Alt Text](2.png)
-![Alt Text](3.png)
 ![Alt Text](4.png)
+![Alt Text](3.png)
+
 ### 🕵️ Obfuscated Payload
 
 In other versions of the application, the WAF may block the standard payload. However, it's still possible to inject HTML containing a malicious link using the following obfuscated vector:
