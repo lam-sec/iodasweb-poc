@@ -16,9 +16,7 @@ A vulnerability pertaining to **Reflected Cross-Site Scripting (XSS)** has been 
 
 ---
 
-## 💣 Payloads
-
-### 🚨 Basic Payload
+### 🚨 Payload
 
 ```html
 WEBSITE.COM/astre/iodasweb/app.jsp?action=<img src=x onerror=alert(1)>
